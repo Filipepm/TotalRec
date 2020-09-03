@@ -1,0 +1,20 @@
+**Sprint 1 Team Reflection**
+
+*Muhammad Abdullah*: For sprint 2, I mainly worked on creating a calender for the events. With that being said, the calender
+should be able to add, delete, and modify events. I also attempted to create the layout of the entire application, 
+but quickly consulted with the team, and decided to do it at a later time. The issue I encountered was 
+during the creation of the calender with events. At first, it was difficult to figure out what method to pursue
+as there is one through the firebase. The firebase was giving the entire team trouble, so I had to find out other ways I 
+could continue working on the given task. Our team plans on meeting more frequently for the next given weeks to figure out 
+how to fix the minor holes we have. 
+
+Kevin Morales: For Sprint 2, I worked on the creating a team portion of the application. I was able to get the basic format for the team creation, the team home page, and the team page from a non subscriber view. 
+However, I was unable to place proper data from our database into these activites, as our authentication had failed on us. 
+The authentication didn't allow us to sign in to the application or create accounts. However, starting 4/5 I plan to redo our authentication and fill in the data to the activities. 
+Due to this setback, we may need to remove features from the project due to the high velocity we expect in sprint 3. However, these changes are to be determined. 
+For Sprint 3, the group has also decided to emphasize working more frequently, such as minimum 1.5 hours per weekday, and about 3 hours per weekend day. 
+
+Filipe Mourao: For Sprint 2 I worked on some of the bugs that we had with the methods of Sprint 1 as well as implementing the create event
+activity. I was having some trouble with signing into the app as well as some of the github commands as it delete some of my code for
+forget my password. I need to work on figuring out how the github commands work as well as getting the sign in page and forgot password page
+working correctly before starting tasks of the next sprint.
