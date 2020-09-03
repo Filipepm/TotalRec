@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/coachNameView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="62dp"
+        android:layout_marginEnd="77dp"
+        android:text="Coach Name"
+        app:layout_constraintEnd_toStartOf="@+id/coachNameIn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/teamNameView" />
+
+    <Button
+        android:id="@+id/nonSubButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="99dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="244dp"
+        android:text="Non Subscriber View"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/totMemIn" />
+
+    <TextView
+        android:id="@+id/teamNameView"
+        android:layout_width="121dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="53dp"
+        android:layout_marginEnd="38dp"
+        android:text="Team Name: "
+        app:layout_constraintEnd_toStartOf="@+id/teamNameIn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/teamNameIn"
+        android:layout_width="221dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="53dp"
+        android:layout_marginEnd="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/coachNameIn"
+        android:layout_width="219dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="17dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/teamNameIn" />
+
+    <TextView
+        android:id="@+id/dateCreationView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="70dp"
+        android:text="Creation Date:"
+        app:layout_constraintEnd_toStartOf="@+id/creationDateIn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/coachNameView" />
+
+    <TextView
+        android:id="@+id/creationDateIn"
+        android:layout_width="217dp"
+        android:layout_height="27dp"
+        android:layout_marginTop="38dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/coachNameIn" />
+
+    <TextView
+        android:id="@+id/sportView"
+        android:layout_width="102dp"
+        android:layout_height="21dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="34dp"
+        android:text="Sport"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dateCreationView" />
+
+    <TextView
+        android:id="@+id/sportIn"
+        android:layout_width="211dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/creationDateIn" />
+
+    <TextView
+        android:id="@+id/totMembersView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="38dp"
+        android:layout_marginEnd="71dp"
+        android:text="Total Members"
+        app:layout_constraintEnd_toStartOf="@+id/totMemIn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sportView" />
+
+    <TextView
+        android:id="@+id/totMemIn"
+        android:layout_width="211dp"
+        android:layout_height="23dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="19dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sportIn" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
